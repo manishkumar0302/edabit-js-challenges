@@ -1,10 +1,10 @@
 July 18th
 ------------
 a. [ Find the Smallest and Biggest Numbers](https://edabit.com/challenge/Q3n42rEWanZSTmsJm)
-function minMax(arr) {
-	
+   
+    function minMax(arr) {
 	return [Math.min(...arr),Math.max(...arr)];
-}
+    }
 
 b. [Check if One Array can be Nested in Another](https://edabit.com/challenge/Gpy2qSFnfhGJnWMMj)
 

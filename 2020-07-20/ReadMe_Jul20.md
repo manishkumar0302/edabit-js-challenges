@@ -34,7 +34,7 @@
 [Scrable Hand](https://edabit.com/challenge/i6YqzHcSiPiEQKjeX)
 
     function maximumScore(tileHand) {
-	return tileHand.reduce((acc,red)=>acc+red.score,0
+	return tileHand.reduce((acc,red)=>acc+red.score,0)
 	}
 
 [Sums of cubes](https://edabit.com/challenge/XdAR3KohR5w7rjrFg)

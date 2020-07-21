@@ -31,4 +31,39 @@
 	}
  
 
+[Scrable Hand](https://edabit.com/challenge/i6YqzHcSiPiEQKjeX)
+
+    function maximumScore(tileHand) {
+	return tileHand.reduce((acc,red)=>acc+red.score,0
+	}
+
+[Sums of cubes](https://edabit.com/challenge/XdAR3KohR5w7rjrFg)
+
+    function sumOfCubes(nums) {
+	return nums.reduce((acc,red)=>acc+Math.pow(red,3),0); 
+	}
+
+
+[Factorial](https://edabit.com/challenge/Ju7AK9rAGjz86hjxo)
+
+    function factorial(z) {
+	if(z<0) return ;
+	if (z === 0) return 1;
+	return z * factorial(z - 1);
+	}
+
+[Alogrithm-Intro to recrusion](https://edabit.com/challenge/vtDnynHfWCnMaKYym)
+
+    function factorial(num) {
+	if(num<0) return ;
+	if (num === 0) return 1;
+	return num * factorial(num - 1);
+	}
+
+[Summing a slice](https://edabit.com/challenge/B3FR3P7g8NyTg7t8b)
+
+    function sliceSum(arr, n) {
+	return arr.slice(0,n).reduce((acc,red)=>acc+red,0);
+	}
+
 
